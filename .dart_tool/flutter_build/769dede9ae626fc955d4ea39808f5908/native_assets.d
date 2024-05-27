@@ -1,0 +1,1 @@
+ C:\\Users\\2DAM\\Downloads\\Reaktor_ISeneca-master\\.dart_tool\\flutter_build\\769dede9ae626fc955d4ea39808f5908\\native_assets.yaml: 

@@ -1,0 +1,55 @@
+[debug] [2024-05-27T12:20:22.196Z] ----------------------------------------------------------------------
+[debug] [2024-05-27T12:20:22.198Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\2DAM\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-05-27T12:20:22.198Z] CLI Version:   13.10.1
+[debug] [2024-05-27T12:20:22.199Z] Platform:      win32
+[debug] [2024-05-27T12:20:22.199Z] Node Version:  v18.18.0
+[debug] [2024-05-27T12:20:22.200Z] Time:          Mon May 27 2024 14:20:22 GMT+0200 (hora de verano de Europa central)
+[debug] [2024-05-27T12:20:22.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-27T12:20:22.208Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-27T12:20:22.208Z] > authorizing via signed-in user (manuelbelmonteoliva@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\2DAM\Downloads\Reaktor_ISeneca-master
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-27T12:20:27.409Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-27T12:20:28.005Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-27T12:20:28.005Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project isenecambo (IsenecaMBO) 
+[info] 
+=== Hosting Setup
+[debug] [2024-05-27T12:20:35.428Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/isenecambo [none]
+[debug] [2024-05-27T12:20:35.739Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/isenecambo 200
+[debug] [2024-05-27T12:20:35.739Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/isenecambo {"projectId":"isenecambo","projectNumber":"170546343306","displayName":"IsenecaMBO","name":"projects/isenecambo","resources":{"hostingSite":"isenecambo"},"state":"ACTIVE","etag":"1_0c7613f3-fde4-4e5b-af35-df157cd767d5"}
+[info] 
+[info] i  Detected a .git folder at C:\Users\2DAM 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=380743391&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-05-27T12:20:59.346Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-05-27T12:20:59.346Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-05-27T12:20:59.720Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-05-27T12:20:59.720Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-05-27T12:20:59.726Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-05-27T12:21:00.125Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-05-27T12:21:00.125Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"zanux02","id":145341551,"node_id":"U_kgDOCKm8bw","avatar_url":"https://avatars.githubusercontent.com/u/145341551?v=4","gravatar_id":"","url":"https://api.github.com/users/zanux02","html_url":"https://github.com/zanux02","followers_url":"https://api.github.com/users/zanux02/followers","following_url":"https://api.github.com/users/zanux02/following{/other_user}","gists_url":"https://api.github.com/users/zanux02/gists{/gist_id}","starred_url":"https://api.github.com/users/zanux02/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/zanux02/subscriptions","organizations_url":"https://api.github.com/users/zanux02/orgs","repos_url":"https://api.github.com/users/zanux02/repos","events_url":"https://api.github.com/users/zanux02/events{/privacy}","received_events_url":"https://api.github.com/users/zanux02/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":6,"public_gists":0,"followers":1,"following":0,"created_at":"2023-09-18T10:19:31Z","updated_at":"2024-05-27T12:20:55Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":1125,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as zanux02 
+[info] 
